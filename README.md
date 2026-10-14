@@ -1,6 +1,6 @@
 <h1 align="center">IdeaScientist</h1>
 
-> This private copy includes a Codex CLI backend and public-dataset import. Start with [CODEX_SETUP.md](CODEX_SETUP.md). The upstream README below is preserved for reference.
+> This copy includes a Codex CLI backend and public-dataset import. Start with [CODEX_SETUP.md](CODEX_SETUP.md). The upstream README below is preserved for reference.
 
 <p align="center">
   <b>Orchestrating Agents for Grounded Scientific Ideation</b>

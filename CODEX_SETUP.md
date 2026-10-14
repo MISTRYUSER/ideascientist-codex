@@ -1,6 +1,6 @@
 # IdeaScientist + Codex
 
-This private copy adds a Codex CLI inference bridge and imports the public Svalbard Idea Vault into the native SQLite retrieval pipeline. Original upstream: https://github.com/jiarui-liu/IdeaScientist, revision `82a98a0`. The original CC BY-NC 4.0 code license remains in force.
+This copy adds a Codex CLI inference bridge and imports the public Svalbard Idea Vault into the native SQLite retrieval pipeline. Original upstream: https://github.com/jiarui-liu/IdeaScientist, revision `82a98a0`. The original CC BY-NC 4.0 code license remains in force.
 
 ## Quick start (Linux or macOS)
 
@@ -28,7 +28,7 @@ The bridge spaces CLI inference starts by 45 seconds by default (`CODEX_BRIDGE_M
 
 ## Codex Cloud
 
-Select this private repository in a Codex Cloud environment. Allow the package registries, Hugging Face data/CDN hosts, and the Codex authentication/inference destinations required by your environment. The full corpus is downloaded in the cloud; local Mac files and login caches are not uploaded.
+Select this repository in a Codex Cloud environment. Allow the package registries, Hugging Face data/CDN hosts, and the Codex authentication/inference destinations required by your environment. The full corpus is downloaded in the cloud; local Mac files and login caches are not uploaded.
 
 **First check `codex login status` inside the cloud environment.** The outer cloud agent's access does not prove that a child `codex exec` process is authenticated. This adapter has been exercised locally; nested CLI authentication in Codex Cloud must be verified separately. If `codex exec` is unavailable or unauthenticated, complete supported login or use the upstream API backend with a separately configured credential. Do not commit authentication files or secrets.
 
