@@ -1,0 +1,5 @@
+Problem definition:
+Build a research agent that retrieves useful memories from prior tasks under a fixed token budget.
+
+Challenge:
+Semantically similar memories can be irrelevant to the current task and waste context. Find a grounded mechanism to improve task relevance and memory selection. Distinguish what is supported by public results-masked annotations from hypotheses requiring original-paper verification and experiments.
